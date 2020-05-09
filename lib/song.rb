@@ -21,5 +21,6 @@ def self.artists
 end
 
 def genre_count
+  @@genres = []
 end
 end
