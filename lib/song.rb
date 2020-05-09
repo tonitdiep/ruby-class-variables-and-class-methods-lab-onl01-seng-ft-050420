@@ -13,12 +13,13 @@ def self.count
 end
 
 def self.genres
-  @@genres = []
-  # @@genres.uniq why?
+  # @@genres = []
+  @@genres.uniq
 end
 
 def self.artists
-  @@artists = []
+  # @@artists = []
+  @@artists.uniq
 end
 
 def self.genre_count
