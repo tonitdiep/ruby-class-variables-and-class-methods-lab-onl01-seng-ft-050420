@@ -24,7 +24,7 @@ end
 
 def self.genre_count
   @@genres = []
-  
+  @genres each do |genre|
 end
 
 def self.artist_count
