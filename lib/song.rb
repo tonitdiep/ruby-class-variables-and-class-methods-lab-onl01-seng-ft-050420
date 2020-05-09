@@ -24,17 +24,17 @@ def self.genres
   @@genres.uniq
 end
 
-def self.genre_count
-  @@genres = []
-  @@genres.each do |genre|
-    if genre_count[genre]
-      genre_count[genre] += 1
-    else
-      genre_count[grade] = 1
-    end
-    end
-    self.genre_count
-end
+# def self.genre_count
+#   @@genres = []
+#   @@genres.each do |genre|
+#     if genre_count[genre]
+#       genre_count[genre] += 1
+#     else
+#       genre_count[grade] = 1
+#     end
+#     end
+#     self.genre_count
+# end
 
 # def self.artist_count
 #   @artists = []  
