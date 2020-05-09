@@ -32,7 +32,7 @@ def self.genre_count
     else
       genre_count[grade] = 1
     end
-  end
+    end
     self.genre_count
 end
 
