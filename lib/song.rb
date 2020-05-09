@@ -22,11 +22,10 @@ def self.genres
   @@genres.uniq
 end
 
-
-# def self.genre_count
-#   @@genres = []
+def self.genre_count
+  @@genres = []
   
-# end
+end
 
 # def self.artist_count
 # end
