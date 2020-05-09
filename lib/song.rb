@@ -1,8 +1,6 @@
 class Song
 attr_accessor :name, :artist, :genre  
 @@count = 0
-@@artists = [] 
-@@genres = []
 
 def initialize(name, artist, genre)
   @name = name
@@ -25,12 +23,15 @@ def self.genres
   @@genres.uniq
 end
 
+@@genres = []
+
   def self.genre_count
   @@genres = Hash.new(0)
   @@genres.each {|genre| genre_count[genre] +=1}
     @@genre_count
   end
 
+@@artists = [] 
 # def self.artist_count
 #   @artists = []  
 # end
