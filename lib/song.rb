@@ -13,6 +13,7 @@ def self.count
 end
 
 def self.genres
+  @genre
 end
 
 # genre_count
