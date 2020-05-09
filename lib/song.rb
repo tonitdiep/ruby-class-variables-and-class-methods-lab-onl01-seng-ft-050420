@@ -20,9 +20,10 @@ def self.artists
   @@artists = []
 end
 
-def genre_count
+def self.genre_count
   @@genres = []
 end
 
-def art
+def self.artist_count
+end
 end
