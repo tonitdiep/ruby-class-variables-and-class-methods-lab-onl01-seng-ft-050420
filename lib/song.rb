@@ -22,6 +22,7 @@ end
 
 def self.genre_count
   @@genres = []
+  @genre[]
 end
 
 def self.artist_count
