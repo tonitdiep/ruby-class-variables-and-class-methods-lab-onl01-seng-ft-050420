@@ -33,7 +33,7 @@ def self.genre_count
       genre_count[grade] = 1
     end
   end
-    genre_count
+    self.genre_count
 end
 
 # def self.artist_count
