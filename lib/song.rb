@@ -30,7 +30,7 @@ end
   @@genres.each do {|genre| genre_count[genre] +=1}
     genre count
   end
-
+end
 # def self.artist_count
 #   @artists = []  
 # end
