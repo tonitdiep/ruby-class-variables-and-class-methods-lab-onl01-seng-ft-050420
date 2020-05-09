@@ -34,7 +34,7 @@ end
       genre_count[genre] = 1
     end
   end
-  return genre_count
+  return @@genre_count
   end
 @@artists = [] 
 # def self.artist_count
