@@ -9,8 +9,8 @@ def initialize()
 end
 
 def self.count
-  puts @@count += 1
-
+  puts @@count
+end
 end
 
 # genre_count
