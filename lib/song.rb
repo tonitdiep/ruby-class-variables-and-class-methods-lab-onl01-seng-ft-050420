@@ -12,9 +12,11 @@ def self.count
    @@count
 end
 
-def 
 def self.genres
   @@genres
 end
 
+def self.artists
+  
+end
 end
