@@ -27,15 +27,9 @@ end
 
 # def self.genre_count
   @@genres = Hash.new(0)
-#   @@genres.each do |genre|
-#     if genre_count[genre]
-#       genre_count[genre] += 1
-#     else
-#       genre_count[grade] = 1
-#     end
-#     end
-#     self.genre_count
-# end
+  @@genres.each do {|genre| genre_count[genre] +=1}
+    genre count
+end
 
 # def self.artist_count
 #   @artists = []  
