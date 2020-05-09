@@ -34,7 +34,6 @@ def self.genre_count
     end
     end
     self.genre_count
-  
 end
 
 # def self.artist_count
