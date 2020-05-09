@@ -9,7 +9,7 @@ def initialize()
 end
 
 def self.count
-  puts
+  puts @@count += 1
 
 end
 
