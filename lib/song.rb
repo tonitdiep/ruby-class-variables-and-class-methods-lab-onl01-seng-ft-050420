@@ -13,10 +13,10 @@ def self.count
 end
 
 def self.genres
-  @@genres
+  @@genres = []
 end
 
 def self.artists
-  @@artists
+  @@artists = []
 end
 end
