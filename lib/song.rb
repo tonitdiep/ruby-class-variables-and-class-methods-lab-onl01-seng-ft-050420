@@ -23,4 +23,6 @@ end
 def genre_count
   @@genres = []
 end
+
+def art
 end
