@@ -15,19 +15,19 @@ def self.count
 end
 
 def self.artists
-  @@artists.uniq
+  @@artists.uniq!
 end
 
 def self.genres
-  @@genres.uniq
+  @@genres.uniq!
 end
 
-def self.genre_count
-  @@genres = []
-  @genres each do |genre|
-end
+# def self.genre_count
+#   @@genres = []
+#   @genres each do |genre|
+# end
 
-def self.artist_count
-  @artists = []  
-end
+# def self.artist_count
+#   @artists = []  
+# end
 end
