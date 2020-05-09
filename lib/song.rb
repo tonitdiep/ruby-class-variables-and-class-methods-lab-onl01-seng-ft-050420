@@ -13,7 +13,7 @@ def self.count
 end
 
 def self.genres
-  @@genre
+  @@genres
 end
 
 end
