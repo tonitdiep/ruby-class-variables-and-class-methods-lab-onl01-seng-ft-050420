@@ -37,7 +37,7 @@ end
   genre_count
   end
 @@artists = [] 
-# def self.artist_count
-#   @artists = []  
-# end
+def self.artist_count
+  @artists = []  
+end
 end
